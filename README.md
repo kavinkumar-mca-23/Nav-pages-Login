@@ -1,12 +1,47 @@
-# React + Vite
+#he login page is designed with React Bootstrap for form handling and Framer Motion for smooth animations. It uses hardcoded demo credentials to simulate a login flow.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✅ Features
+Styled with a frosted glass effect
 
-Currently, two official plugins are available:
+Animated using Framer Motion
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Alerts users on login success or failure
 
-## Expanding the ESLint configuration
+Navigates to /UserHome on successful login
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hardcoded demo credentials for testing
+
+📋 Demo Credentials
+Use the following credentials to log in:
+
+👤 Username: kavin
+🔑 Password: 1516
+📧 Email: kavin15@gmail.com (for reference only)
+
+# 📸Screenshots:
+![image](https://github.com/user-attachments/assets/779c92a1-522a-41af-a5bb-f7628f4e52c9)
+![image](https://github.com/user-attachments/assets/699c3eca-665a-484d-b0a2-7ec891156e64)
+
+#web navigatiuon :
+ In React, we usually handle navigation using a library like React Router.
+
+#🚀 How React Navigation Works (React Router)
+When you use React Router:
+
+<Routes> and <Route> define which component (page) shows up for each URL path.
+
+useNavigate() is a hook used to move (navigate) between pages programmatically (like after login).
+
+<Link> is a component used to add clickable links to navigate between pages without reloading.
+
+#🧭 Example from Your App:
+
+<Route path="/login" element={<Login />} />
+<Route path="/userHome" element={<UserHome />} />
+
+#📸ScreenShots:
+![image](https://github.com/user-attachments/assets/e69b9c6d-6061-4adf-99d7-556ae411554c)
+![image](https://github.com/user-attachments/assets/2263c780-a792-4a9c-ab61-12c4dec096fc)
+
+
+
